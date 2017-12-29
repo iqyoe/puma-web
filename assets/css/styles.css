@@ -750,11 +750,14 @@ section.event-list .thumbnail button:hover{
   color: white;
   background: #000411;
 }
+#footer .fa{
+  margin:  0 0.5em;
+}
 
 /*-----NEW FOR ABOUT -----*/
 
 #description{
-  background-image: url('/assets/img/img1.png');
+  background-image: url('../img/img1.png');
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -803,9 +806,12 @@ section.event-list .thumbnail button:hover{
   margin-bottom: 2em;
   padding:  0 3em;
 }
+#god img{
+  margin-top: 4em;
+}
 
 #puma-team{
-  background-image: url('/assets/img/img1.png');
+  background-image: url('../img/img1.png');
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -828,7 +834,7 @@ section.event-list .thumbnail button:hover{
 .one {
   list-style: none;
   padding: 0;
-  margin: 100px 0;
+  margin: 7em 0;
 }
 .one > li {
   background: #FFFFFF;
@@ -845,7 +851,7 @@ section.event-list .thumbnail button:hover{
   margin-top: 60px;
 }
 .one > li:hover img {
-  margin-top: 30px;
+  margin-top: 1em;
 }
 .one > li:hover {
   -moz-box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
