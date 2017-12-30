@@ -795,6 +795,9 @@ section.event-list .thumbnail button:hover{
 #footer .fa{
   margin:  0 0.5em;
 }
+#footer h4{
+  margin-top: 2em;
+}
 
 /*-----NEW FOR ABOUT -----*/
 
