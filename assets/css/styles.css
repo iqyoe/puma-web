@@ -863,6 +863,12 @@ section.event-list .thumbnail button:hover{
 #web-team{
   padding: 3%;
 }
+/*to make list on center*/
+#web-team ul.one{
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+
 .transition {
   transition: .3s cubic-bezier(.3, 0, 0, 1.3)
 }
