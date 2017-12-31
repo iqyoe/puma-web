@@ -50,6 +50,10 @@ body {
 }
 
 /* Sidebar navigation */
+#headlogo{
+  max-height: 60px;
+}
+
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
@@ -66,14 +70,18 @@ body {
   background-color: #428bca;
 }
 
+.navbar ul > li:hover{
+  background-color: #fff;
 
+}
 /*
  * Main content
  */
 
 .main {
-  padding: 20px;
+  padding: 40px;
 }
+
 @media (min-width: 768px) {
   .main {
     padding-right: 40px;
@@ -102,4 +110,11 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+/*copyright*/
+span.copyright{
+  bottom: 0px;
+  position: absolute;
+  padding-bottom: 10px;
 }
